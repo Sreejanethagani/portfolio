@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+
+    
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">NETHAGANI SREEJA</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">NETHAGANI SREEJA</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="profile.png"  />
+      </div>
+      <div class="section__text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">NETHAGANI SREEJA</h1>
+        <p class="section_text_p2">
+          <span id="typed-role" class="text-success">
+          </span>
+        </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/1fS60ghkbpQu203kDdtDZeyNtU_JuRoWp/view?usp=sharing')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/sreeja-nethagani-057087330/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Sreejanethagani'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section_text_p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRxUKWumRGVpURWIkizjW9XOcui24TXZCu3Q&s"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech. Bachelors Degree<br />Intermediate – MPC Stream</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I’m Sreeja, a passionate and self-driven developer with hands-on experience in building web applications using Python and Django. I’ve developed a Todo Application and a mini Quiz App using Python’s core features like dictionaries. With over 5 capstone projects and multiple certifications in Python, Git, and Data Science, I have built a strong foundation in backend development and automation.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="Experience">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Technical Expertise</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>BOOTSTRAP</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PYTHON</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JAVA</h3>
+                  <p></p>
+                </div>
+              </article>
+               <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p></p>
+                </div>
+              </article>
+             
+               <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>POWERBI</h3>
+                  <p></p>
+                </div>
+              </article>
+
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                
+                <div>
+                  <h3>MYSQL</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ORACLE</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>DJANGO</h3>
+                  <p></p>
+                </div>
+              </article>
+                <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SqLite</h3>
+                  <p></p>
+                </div>
+              </article>
+                <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PANDAS</h3>
+                  <p></p>
+                </div>
+              </article>
+                <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NUMPY</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GIT</h3>
+                  <p></p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section_text_p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container , myclass">
+              <img
+                src="food.jpg "
+                alt="Project 1"
+                class="project-img"
+                width="300"
+                height="300"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Foodie Application UI</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Sreejanethagani/food'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://sreejanethagani.github.io/food/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container , myclass">
+              <img
+                src="travel.jpeg"
+                alt="Project 2"
+                class="project-img"
+                width="300"
+                height="300"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Travelyari UI</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Sreejanethagani/travelyari.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://sreejanethagani.github.io/travelyari/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container , myclass">
+              <img
+                src="ecommerce pic.webp"
+                alt="Project 3"
+                class="project-img"
+                width="300"
+                height="300"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title"> Ecommerce website</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Sreejanethagani/food'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://sreejanethagani.github.io/food/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container , myclass">
+              <img
+                src="curd.jpeg"
+                alt="Project 4"
+                class="project-img"
+                width="100"
+                height="100"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">CRUD Application</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Sreejanethagani/crud.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://sreejanethagani2.pythonanywhere.com/'"
+                >
+                Live Demo
+              </button>
+            </div>
+          </div>
+           <div class="details-container color-container">
+            <div class="article-container , myclass">
+              <img
+                src="emp.png"
+                alt="Project 5"
+                class="project-img"
+                width="300"
+                height="300"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Employee Database system</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Sreejanethagani/Employee.git'"
+              >
+                Github
+              </button>
+               <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://nethaganisreeja.pythonanywhere.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+           <div class="details-container color-container">
+            <div class="article-container , myclass">
+              <img
+                src="login.png"
+                alt="Project 6"
+                class="project-img"
+                width="300"
+                height="300"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Dynamic Login Form</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Sreejanethagani/loginform.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://sreejanethagani.github.io/loginform/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container , myclass">
+              <img
+                src="choco.jpeg"
+                alt="Project 7"
+                class="project-img"
+                width="300"
+                height="300"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">PowerBI Dashboard on Choclate Dataset</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=' https://app.powerbi.com/view?r=eyJrIjoiYWRmNmU4MjgtMWY2ZS00OTc4LThkN2QtMzVkYjQ3MzQ3MWI1IiwidCI6ImUzMDhkN2ZjLWNlMjItNGFjOC1iMTI5LTM2YjBhNWFkMjVhMyJ9'"
+              >
+                 Live
+              </button>
+            </div>
+          </div>
+          
+          
+          <div class="details-container color-container">
+            <div class="article-container , myclass">
+              <img
+                src="otp.png" width="300"
+                alt="Project 8"
+                class="project-img"
+                width="300"
+                height="300"
+                
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">OTP</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Sreejanethagani/otp.git'"
+              >
+                Github
+              </button>
+               <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://sreejanethagani7.pythonanywhere.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+           <div class="details-container color-container">
+            <div class="article-container , myclass">
+              <img
+                src="todo-app.png"
+                alt="Project 9"
+                class="project-img"
+                width="300"
+                height="300"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">TODO Application</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Sreejanethagani/todo-application.git'"
+              >
+                Github
+              </button>
+               <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://sreejanethagani5.pythonanywhere.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+           <div class="details-container color-container">
+            <div class="article-container , myclass">
+            <img
+                src="cv.avif"
+                alt="Project 10"
+                class="project-img"
+                width="300"
+                height="300"
+                
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Webbased CV Generator</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Sreejanethagani/cv-generator.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://sreejanethagani05.pythonanywhere.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container , myclass">
+
+          
+          
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section_text_p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:nethaganisreeja9@gmail.com">nethaganisreeja9@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/sreeja-nethagani-057087330/">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/github.png"
+            alt="Github icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://github.com/Sreejanethagani">Github</a></p>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+       var typed = new Typed("#typed-role",{
+        strings: [
+          "Full Stack Python Developer",
+          "Full Stack Python Developer",
+          "Data analyst"
+        ],
+        typeSpeed: 50,
+        backSpeed:30,
+        loop: true
+       })
+    </script>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; Nethagani Sreeja. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
